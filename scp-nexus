@@ -1,0 +1,7 @@
+sudo yum install unzip -y
+
+curl -O localhost:8081/repository/new/python-http-server.zip
+unzip python-http-server.zip
+cd python-http-server
+./app.py &
+disown
