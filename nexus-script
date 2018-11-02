@@ -6,7 +6,7 @@ sudo tar xvf latest-unix.tar.gz -C /opt
 sudo ln -s /opt/nexus-3.14.0-04/ /opt/nexus
 
 sudo adduser nexus
-sudo chown -R nexus:nexus /opt/nexus
+sudo chown -R nexus:nexus /opt/nexus /opt/nexus-3.14.0-04 /opt/sonatype-work
 
 #sudo vim /opt/nexus/bin/nexus.rc
 #	run_as_user="nexus"   
