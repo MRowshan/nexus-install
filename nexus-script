@@ -15,7 +15,7 @@ sudo chown -R nexus:nexus /opt/nexus
 #sudo ln -s /opt/nexus/bin/nexus /etc/init.d/nexus
 #sudo systemctl enable nexus
 
-#sudo system start nexus
+#sudo service nexus start
 
 #upload file
 sudo yum install zip -y
